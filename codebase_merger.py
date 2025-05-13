@@ -18,9 +18,33 @@ SKIP_EXTENSIONS = {
 
 # Directories to skip
 SKIP_DIRS = {
-    '.git', 'node_modules', 'venv', 'env', '.env', '.venv', '__pycache__', 
-    'build', 'dist', 'target', 'out', '.idea', '.vscode', '.DS_Store', 'bin',
-    'obj', 'vendor', 'packages', 'bower_components', '.next', '.nuxt'
+    # Version control
+    '.git', '.svn', '.hg', '.bzr', 'CVS',
+    
+    # Python environments
+    'venv', 'env', '.env', '.venv', '__pycache__', '.pytest_cache', '.coverage', 'htmlcov',
+    '.tox', '.nox', 'virtenv', 'virtualenv', '.Python', 'site-packages', '.eggs',
+    
+    # Node.js
+    'node_modules', '.npm', '.yarn', 'bower_components', '.pnpm-store',
+    
+    # Build directories
+    'build', 'dist', 'target', 'out', 'bin', 'obj', '.next', '.nuxt', '.output',
+    
+    # IDE and editor files
+    '.idea', '.vscode', '.vs', '.eclipse', '.settings', '.project', '.classpath',
+    
+    # OS specific
+    '.DS_Store', '__MACOSX', 'Thumbs.db', 'desktop.ini',
+    
+    # Package managers
+    'vendor', 'packages', 'libs', 'lib', 'lib64', 'parts', 'sdist', 'wheels',
+    
+    # Documentation
+    'docs', 'doc', 'documentation', 'apidocs', 'site', 'wikis',
+    
+    # Common temporary directories
+    'tmp', 'temp', 'cache', '.cache', '.sass-cache'
 }
 
 # Default max file size (5MB)

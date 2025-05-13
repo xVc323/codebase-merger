@@ -81,9 +81,18 @@ class CodebaseMergerGUI:
         
         # Default exclusions
         default_exclusions = [
-            r"\.git/.*", 
-            "node_modules/.*", 
-            "__pycache__/.*"
+            r"\.git/.*",
+            r"\.svn/.*", 
+            r"node_modules/.*",
+            r"__pycache__/.*",
+            r"venv/.*",
+            r"\.venv/.*",
+            r"env/.*",
+            r"\.env/.*",
+            r"\.idea/.*",
+            r"\.vscode/.*",
+            r"build/.*",
+            r"dist/.*"
         ]
         for pattern in default_exclusions:
             self.exclude_patterns.append(pattern)
