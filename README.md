@@ -33,7 +33,7 @@ pip install codebase-merger
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/codebase-merger.git
+git clone https://github.com/xVc323/codebase-merger.git
 cd codebase-merger
 
 # Install the package

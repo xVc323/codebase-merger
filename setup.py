@@ -6,7 +6,7 @@ setup(
     description="Merge an entire GitHub repository codebase into a single file",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/codebase-merger",
+    url="https://github.com/xVc323/codebase-merger",
     author="GitHub Codebase Merger Developers",
     author_email="your.email@example.com",
     py_modules=["codebase_merger"],
