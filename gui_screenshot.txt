@@ -1,0 +1,42 @@
++--------------------------------------------------+
+|  GitHub Codebase Merger                           |
++--------------------------------------------------+
+|                                                  |
+| GitHub Repository URL:                           |
+| [https://github.com/username/repository       ]  |
+|                                                  |
+| Output File:                                     |
+| [/Users/username/merged_codebase.txt] [Browse..] |
+|                                                  |
+| Max File Size (MB):                              |
+| [5 ▼]                                            |
+|                                                  |
+| Exclude Patterns:                                |
+| [node_modules/.* or similar pattern...] [Add]    |
+|                                                  |
+| Current Exclusions:                              |
+| +------------------------------------------+     |
+| | .git/.*                                  |     |
+| | node_modules/.*                          |     |
+| | __pycache__/.*                           |     |
+| |                                          |     |
+| |                                          |     |
+| +------------------------------------------+     |
+|                       [Clear All] [Remove Sel.]  |
+|                                                  |
+| Progress:                                        |
+| [===========                                  ]  |
+|                                                  |
+| Status:                                          |
+| +------------------------------------------+     |
+| | Starting merge process...                |     |
+| | Repository: https://github.com/...       |     |
+| | Output file: /Users/username/...         |     |
+| | Exclusions: .git/.*, node_modules/.*     |     |
+| | Cloning repository to temporary dir...   |     |
+| | Processing repository files...           |     |
+| | ...                                      |     |
+| +------------------------------------------+     |
+|                                                  |
+|                            [Merge Codebase]      |
++--------------------------------------------------+ 
