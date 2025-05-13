@@ -15,6 +15,26 @@ A simple Python tool that clones a GitHub repository and merges all code files i
 - Configurable maximum file size
 - Available as both CLI and GUI applications
 
+### Default Exclusions
+
+The tool automatically excludes several types of files and directories:
+
+#### Excluded Directories
+- Version control: `.git`, `.svn`, `.hg`, etc.
+- Python environments: `venv`, `.venv`, `env`, etc.
+- Node.js: `node_modules`, `.npm`, `.yarn`, etc.
+- Build directories: `build`, `dist`, `target`, etc.
+- IDE settings: `.idea`, `.vscode`, etc.
+- Documentation: `docs`, `doc`, etc.
+- Common temporary directories: `tmp`, `cache`, etc.
+
+#### Excluded File Types
+- Binary executables: `.exe`, `.dll`, `.so`, etc.
+- Archives: `.zip`, `.tar`, `.gz`, etc.
+- Media files: `.mp3`, `.mp4`, `.jpg`, etc.
+- Documents: `.pdf`, `.doc`, `.xls`, etc.
+- Bytecode: `.pyc`, `.class`, etc.
+
 ## Requirements
 
 - Python 3.6+
